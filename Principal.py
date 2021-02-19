@@ -15,10 +15,10 @@ j1 = int(input('   Jogador 1, escolha uma opção: '))
 j2 = int(input('   Jogador 2, escolha uma opção: '))
 #Perda por erro
 if j1 >= 4:
-    print('   Jogador 1 entrou com um valor incorreto, logo, jogador 2 ganhou\n  Parabéns!!!')
+    print('   Jogador 1 entrou com um valor incorreto, logo, jogador 2 ganhou, parabéns!!!')
     exit()
 elif j2 >= 4:
-    print('   Jogador 2 entrou com um valor incorreto, logo, jogador 1 ganhou\n  Parabéns!!!')
+    print('   Jogador 2 entrou com um valor incorreto, logo, jogador 1 ganhou, parabéns!!!')
     exit()
 #Empate
 if j1 == j2:
