@@ -1,11 +1,11 @@
-#impotação
+#importação
 from random import randint
 print()
 #enquanto
 op = 'jogar'
 print('    Bem-vindo ao jogo Jokenpo!   ')
 while op == 'jogar':
-#Menu main
+#menu principal
     print('        _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ')
     print('       |                             |')
     print('       |           JoKenPo!          |')
@@ -15,8 +15,10 @@ while op == 'jogar':
     print('       |   3 - Sair                  |')
     print('       |_ _ _ _ _ _ _ _ _ _ _ _ __ _ |')
     opm = int(input('   Escolha uma opção de jogo: '))
+#sair
     if opm == 3:
         exit()
+#jogar contra o computador
     elif opm == 1:
         sort = randint(1, 3)
         if sort == 1:
@@ -34,6 +36,7 @@ while op == 'jogar':
         print('       |   3 - tesoura   |')
         print('       |_ _ _ _ _ _ _ _ _|')
         j2 = int(input('   Escolha uma opção: '))
+#jogar contra um amigo
     else:
         print('        _ _ _ _ _ _ _ _ _')
         print('       |                 |')
@@ -43,36 +46,35 @@ while op == 'jogar':
         print('       |   2 - papel     |')
         print('       |   3 - tesoura   |')
         print('       |_ _ _ _ _ _ _ _ _|')
-        #Entrada de variável
         j1 = int(input('   Jogador 1, escolha uma opção: '))
         j2 = int(input('   Jogador 2, escolha uma opção: '))
-    #Perda por erro
+#Perda por erro
     if j1 >= 4:
         print('   Jogador 1 entrou com um valor incorreto, logo, jogador 2 ganhou, parabéns!!!')
     elif j2 >= 4:
         print('   Jogador 2 entrou com um valor incorreto, logo, jogador 1 ganhou, parabéns!!!')
-    #Empate
+#Empate
     elif j1 == j2:
         print('   O jogo empatou, mais sorte na próxima vez!!')
-    #Pedra por j1
-    elif j1==1:
+#Pedra por j1
+    elif j1 == 1:
         if j2 == 2:
             print('   Jogador 2 ganhou, parabéns!!!')
         elif j2 == 3:
             print('   Jogador 1 ganhou, parabéns!!!')
-    #Papel por j1
+#Papel por j1
     elif j1 == 2:
         if j2 == 3:
             print('   Jogador 2 ganhou, parabéns!!!')
         elif j2 == 1:
             print('   Jogador 1 ganhou, parabéns!!!')
-    #Tesoura por j1
+#Tesoura por j1
     elif j1 == 3:
         if j2 == 1:
             print('   Jogador 2 ganhou, parabéns!!!')
         elif j2 == 2:
             print('   Jogador 1 ganhou, parabéns!!!')
-    #Jogar novamente
+#Jogar novamente
     print()
     op = str(input('   Para jogar novamente digite,\"jogar\": ')).lower()
     if op == 'jogar':
