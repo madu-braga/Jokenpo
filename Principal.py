@@ -1,22 +1,50 @@
-# Esse programa foi desenvolvido utilizando a linguagem de programação Python
-
+from random import randint
 print('')
 #início e enquanto
 op = 'jogar'
 print('    Bem-vindo ao jogo Jokenpo!   ')
 while op == 'jogar':
-# Menu
-    print('        _ _ _ _ _ _ _ _ _')
-    print('       |                 |')
-    print('       |    JoKenPo!     |')
-    print('       |                 |')
-    print('       |   1 - pedra     |')
-    print('       |   2 - papel     |')
-    print('       |   3 - tesoura   |')
-    print('       |_ _ _ _ _ _ _ _ _|')
-    #Entrada de variável
-    j1 = int(input('   Jogador 1, escolha uma opção: '))
-    j2 = int(input('   Jogador 2, escolha uma opção: '))
+#Menu main
+    print('        _ _ _ _ _ _ _ _ _ _ _ _ __ _ ')
+    print('       |                             |')
+    print('       |           JoKenPo!          |')
+    print('       |                             |')
+    print('       |   1 - Jogar contra o pc     |')
+    print('       |   2 - Jogar contra um amigo |')
+    print('       |   3 - Sair                  |')
+    print('       |_ _ _ _ _ _ _ _ _ _ _ _ __ _ |')
+    opm = int(input('   Escolha uma opção de jogo: '))
+    if opm == 3:
+        exit()
+    elif opm == 1:
+        sort = randint(1,3)
+        if sort == 1:
+            j1 = 1
+        elif sort == 2:
+            j1 == 2
+        else:
+            j1 == 3
+        print('        _ _ _ _ _ _ _ _ _')
+        print('       |                 |')
+        print('       |    JoKenPo!     |')
+        print('       |                 |')
+        print('       |   1 - pedra     |')
+        print('       |   2 - papel     |')
+        print('       |   3 - tesoura   |')
+        print('       |_ _ _ _ _ _ _ _ _|')
+        j2 = int(input('   Jogador 2, escolha uma opção: '))
+    else:
+        print('        _ _ _ _ _ _ _ _ _')
+        print('       |                 |')
+        print('       |    JoKenPo!     |')
+        print('       |                 |')
+        print('       |   1 - pedra     |')
+        print('       |   2 - papel     |')
+        print('       |   3 - tesoura   |')
+        print('       |_ _ _ _ _ _ _ _ _|')
+        #Entrada de variável
+        j1 = int(input('   Jogador 1, escolha uma opção: '))
+        j2 = int(input('   Jogador 2, escolha uma opção: '))
     #Perda por erro
     if j1 >= 4:
         print('   Jogador 1 entrou com um valor incorreto, logo, jogador 2 ganhou, parabéns!!!')
@@ -37,12 +65,13 @@ while op == 'jogar':
             print('   Jogador 2 ganhou, parabéns!!!')
         elif j2 == 1:
             print('   Jogador 1 ganhou, parabéns!!!')
-     #Tesoura por j1
+    #Tesoura por j1
     elif j1 == 3:
         if j2 == 1:
             print('   Jogador 2 ganhou, parabéns!!!')
         elif j2 == 2:
             print('   Jogador 1 ganhou, parabéns!!!')
+    #Jogar novamente
     print('')
     op = str(input('   Para jogar novamente digite,\"jogar\": ')).lower()
     if op == 'jogar':
