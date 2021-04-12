@@ -1,11 +1,12 @@
+#impotação
 from random import randint
-print('')
-#início e enquanto
+print()
+#enquanto
 op = 'jogar'
 print('    Bem-vindo ao jogo Jokenpo!   ')
 while op == 'jogar':
 #Menu main
-    print('        _ _ _ _ _ _ _ _ _ _ _ _ __ _ ')
+    print('        _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ')
     print('       |                             |')
     print('       |           JoKenPo!          |')
     print('       |                             |')
@@ -17,7 +18,7 @@ while op == 'jogar':
     if opm == 3:
         exit()
     elif opm == 1:
-        sort = randint(1,3)
+        sort = randint(1, 3)
         if sort == 1:
             j1 = 1
         elif sort == 2:
@@ -32,7 +33,7 @@ while op == 'jogar':
         print('       |   2 - papel     |')
         print('       |   3 - tesoura   |')
         print('       |_ _ _ _ _ _ _ _ _|')
-        j2 = int(input('   Jogador 2, escolha uma opção: '))
+        j2 = int(input('   Escolha uma opção: '))
     else:
         print('        _ _ _ _ _ _ _ _ _')
         print('       |                 |')
@@ -72,11 +73,11 @@ while op == 'jogar':
         elif j2 == 2:
             print('   Jogador 1 ganhou, parabéns!!!')
     #Jogar novamente
-    print('')
+    print()
     op = str(input('   Para jogar novamente digite,\"jogar\": ')).lower()
     if op == 'jogar':
-        print('')
+        print()
     else:
-        print('')
+        print()
         print('   Agradeço a utilização desse programa e espero que tenha gostado!\n   Atenciosamente: Maria Eduarda Macedo Braga')
         exit()
