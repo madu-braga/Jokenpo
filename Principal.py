@@ -1,4 +1,4 @@
-#importação
+#impotação
 from random import randint
 print()
 #enquanto
@@ -48,33 +48,33 @@ while op == 'jogar':
         print('       |_ _ _ _ _ _ _ _ _|')
         j1 = int(input('   Jogador 1, escolha uma opção: '))
         j2 = int(input('   Jogador 2, escolha uma opção: '))
-#Perda por erro
+#perda por erro
     if j1 >= 4:
         print('   Jogador 1 entrou com um valor incorreto, logo, jogador 2 ganhou, parabéns!!!')
     elif j2 >= 4:
         print('   Jogador 2 entrou com um valor incorreto, logo, jogador 1 ganhou, parabéns!!!')
-#Empate
+#empate
     elif j1 == j2:
         print('   O jogo empatou, mais sorte na próxima vez!!')
-#Pedra por j1
+#pedra por j1
     elif j1 == 1:
         if j2 == 2:
             print('   Jogador 2 ganhou, parabéns!!!')
         elif j2 == 3:
             print('   Jogador 1 ganhou, parabéns!!!')
-#Papel por j1
+#papel por j1
     elif j1 == 2:
         if j2 == 3:
             print('   Jogador 2 ganhou, parabéns!!!')
         elif j2 == 1:
             print('   Jogador 1 ganhou, parabéns!!!')
-#Tesoura por j1
+#tesoura por j1
     elif j1 == 3:
         if j2 == 1:
             print('   Jogador 2 ganhou, parabéns!!!')
         elif j2 == 2:
             print('   Jogador 1 ganhou, parabéns!!!')
-#Jogar novamente
+#jogar novamente
     print()
     op = str(input('   Para jogar novamente digite,\"jogar\": ')).lower()
     if op == 'jogar':
