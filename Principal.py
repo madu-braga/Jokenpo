@@ -5,16 +5,24 @@ print()
 op = 'jogar'
 print('    Bem-vindo ao jogo Jokenpo!   ')
 while op == 'jogar':
+    f = True;
+    while f == True:
 #menu principal
-    print('        _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ')
-    print('       |                             |')
-    print('       |           JoKenPo!          |')
-    print('       |                             |')
-    print('       |   1 - Jogar contra o pc     |')
-    print('       |   2 - Jogar contra um amigo |')
-    print('       |   3 - Sair                  |')
-    print('       |_ _ _ _ _ _ _ _ _ _ _ _ __ _ |')
-    opm = int(input('   Escolha uma opção de jogo: '))
+        print('        _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ')
+        print('       |                             |')
+        print('       |           JoKenPo!          |')
+        print('       |                             |')
+        print('       |   1 - Jogar contra o pc     |')
+        print('       |   2 - Jogar contra um amigo |')
+        print('       |   3 - Sair                  |')
+        print('       |_ _ _ _ _ _ _ _ _ _ _ _ __ _ |')
+        opm = int(input('   Escolha uma opção de jogo: '))
+        if opm != 1 and opm != 2 and opm != 3:
+            print()
+            print('   Digite uma opção válida: ')
+            f = True
+        else:
+            f = False
 #sair
     if opm == 3:
         exit()
