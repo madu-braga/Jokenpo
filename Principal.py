@@ -10,7 +10,7 @@ while op == 'jogar':
 #menu principal
         print('        _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ')
         print('       |                             |')
-        print('       |           JoKenPo!          |')
+        print('       |           JoKenPô!          |')
         print('       |                             |')
         print('       |   1 - Jogar contra o pc     |')
         print('       |   2 - Jogar contra um amigo |')
@@ -37,7 +37,7 @@ while op == 'jogar':
             j1 == 3
         print('        _ _ _ _ _ _ _ _ _')
         print('       |                 |')
-        print('       |    JoKenPo!     |')
+        print('       |    JoKenPô!     |')
         print('       |                 |')
         print('       |   1 - pedra     |')
         print('       |   2 - papel     |')
@@ -48,7 +48,7 @@ while op == 'jogar':
     else:
         print('        _ _ _ _ _ _ _ _ _')
         print('       |                 |')
-        print('       |    JoKenPo!     |')
+        print('       |    JoKenPô!     |')
         print('       |                 |')
         print('       |   1 - pedra     |')
         print('       |   2 - papel     |')
