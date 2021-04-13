@@ -91,7 +91,3 @@ while op == 'jogar':
         print()
         print('   Agradeço a utilização desse programa e espero que tenha gostado!\n   Atenciosamente: Maria Eduarda Macedo Braga')
         exit()
-
-
-
-
