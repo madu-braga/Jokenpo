@@ -1,4 +1,4 @@
-<h1 align="center"> Paper-Rock-Scissors </h1>
+<h1 align="center"> Rock Paper Scissors </h1>
 <p align="center">Programação do jogo
 
 ## 🎯 Funcionalidades
