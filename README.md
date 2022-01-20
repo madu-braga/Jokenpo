@@ -1,7 +1,7 @@
 <h1 align="center"> Rock Paper Scissors </h1>
-<p align="center">Programação do jogo
+<p align="center"> Game Programming
 
-## 🎯 Funcionalidades
+## 🎯 Functionalities
 ✔️ O programa permite ao usuário jogar Jokenpô, seja contra a máquina ou outro jogador; <br>
 ✔️ O programa permite ao usuário jogar quantas vezes desejar; <br>
 ✔️ O programa realiza um sorteio quando a opção de jogar contra a máquina é escolhida; <br>
