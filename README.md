@@ -2,23 +2,23 @@
 <p align="center"> Game Programming
 
 ## 🎯 Functionalities
-✔️ O programa permite ao usuário jogar Jokenpô, seja contra a máquina ou outro jogador; <br>
-✔️ O programa permite ao usuário jogar quantas vezes desejar; <br>
-✔️ O programa realiza um sorteio quando a opção de jogar contra a máquina é escolhida; <br>
-✔️ O programa reconhece os erros.
+✔️ The program allows the user to play Jokenpô, either against the machine or another player; <br>
+✔️ The code allows the user to play as many times as he wants; <br>
+✔️ The code performs a draw when the option to play against the machine is chosen; <br>
+✔️ The program recognizes errors.
 
-## 🚀 Linguagens
-✔️ Foi utilizado Python em todo o projeto.
+## 🚀 Languages
+✔️ Python.
 
 ## 🎨 Layout
 <p align="left">
       <img src="Imagens/img1.png" width="360"> &nbsp; &nbsp; 
       <img src="Imagens/img2.png" width="317"> &nbsp; &nbsp;  
       
-## ⚖️ Licença
+## ⚖️ License
 ✔️ MIT License.
 
-## 🔥 Sobre mim 
+## 🔥 About Myself
   <div>
   <a href = "https://mail.google.com/mail/u/1/#inbox"><img src="https://img.shields.io/badge/-Gmail-%23EA4335?style=for-the-badge&logo=gmail&logoColor=white" target="_blank">
   </a>
